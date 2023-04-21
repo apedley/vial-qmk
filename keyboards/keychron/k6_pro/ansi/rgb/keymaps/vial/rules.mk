@@ -7,3 +7,6 @@ VIALRGB_ENABLE = yes
 LTO_ENABLE = no
 
 MIDI_ENABLE = no
+CAPS_WORD_ENABLE = yes
+
+SRC += features/select_word.c

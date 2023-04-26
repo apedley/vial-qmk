@@ -4,9 +4,14 @@ VIAL_ENABLE = yes
 VIAL_INSECURE = yes
 VIALRGB_ENABLE = yes
 
-LTO_ENABLE = no
+LTO_ENABLE = yes
 
-MIDI_ENABLE = no
+MIDI_ENABLE = yes
 CAPS_WORD_ENABLE = yes
+
+COMBO_ENABLE = yes
+DYNAMIC_MACRO_ENABLE = yes
+KEY_OVERRIDE_ENABLE = yes
+TAP_DANCE_ENABLE = yes
 
 SRC += features/select_word.c

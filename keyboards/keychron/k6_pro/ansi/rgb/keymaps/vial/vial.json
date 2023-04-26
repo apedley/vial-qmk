@@ -3,6 +3,7 @@
   "vendorId": "0x3434",
   "productId": "0x0260",
   "lighting": "vialrgb",
+  "midi": "advanced",
   "customKeycodes": [
     {"name": "Left Option", "title": "Left Option", "shortName": "Left Option"},
     {"name": "Right Option", "title": "Right Option", "shortName": "Right Option"},

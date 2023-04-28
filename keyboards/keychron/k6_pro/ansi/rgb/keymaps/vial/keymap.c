@@ -127,6 +127,26 @@ bool process_record_user(uint16_t keycode, keyrecord_t* record) {
     return true;
 }
 
+// void rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
+//     for (uint8_t i = led_min; i < led_max; i++) {
+//         switch(get_highest_layer(layer_state|default_layer_state)) {
+//             case MAC_FN1:
+//                 rgb_matrix_set_color(i, RGB_TURQUOISE);
+//                 break;
+//             case WIN_FN1:
+//                 rgb_matrix_set_color(i, RGB_MAGENTA);
+//                 break;
+//             case FN2:
+//                 rgb_matrix_set_color(i, RGB_YELLOW);
+//                 break;
+//             default:
+//                 rgb_matrix_set_color(i, RGB_OFF);
+//                 break;
+//         }
+//     }
+// }
+
+
 void matrix_scan_user(void) {
     select_word_task();
 }

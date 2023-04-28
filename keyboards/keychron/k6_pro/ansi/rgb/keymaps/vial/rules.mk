@@ -7,6 +7,7 @@ VIALRGB_ENABLE = yes
 LTO_ENABLE = yes
 
 MIDI_ENABLE = yes
+
 CAPS_WORD_ENABLE = yes
 
 COMBO_ENABLE = yes
